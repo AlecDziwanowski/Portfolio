@@ -1,162 +1,220 @@
-# 20 React: React Portfolio
+<div id="top"></div>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-## Your Task
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 
+<!-- PROJECT LOGO -->
+<!-- <br /> -->
+<div align="center">
+  <!-- <a href="https://github.com/github_username/repo_name">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a> -->
 
-You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
+<h3 align="center">Social Network API</h3>
 
-**Important:** Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
+  <p align="center">
+    <br />
+    <a href="https://github.com/AlecDziwanowski/HW18-SocialNetworkAPI"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <!-- was: "View Demo" -->
+    <a href="https://drive.google.com/file/d/1UDUmv-ylrnEFxORbrN4SaKxSavzPX-Os/view">View Demo</a>
+    ·
+    <a href="https://github.com/AlecDziwanowski/HW18-SocialNetworkAPI/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/AlecDziwanowski/HW18-SocialNetworkAPI/issues">Request Feature</a>
+  </p>
+</div>
 
-## User Story
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-```md
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
-```
+<!-- ABOUT THE PROJECT -->
+## About The Project
+An API for a social network web application built in Express.js. Users can friend one another, post thoughts, and react to friends' thoughts. The front end for this application has not yet been deployed.
 
-## Acceptance Criteria
+### Application Demonstration GIF 
+(for a video use demo link above)
 
-```md
-GIVEN a single-page application portfolio for a web developer
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
-WHEN I view the header
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-WHEN I view the navigation titles
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-WHEN I click on a navigation title
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
-```
+![Social Network API GIF](./Assets/functionalityGIF.gif)
 
-## Mock-Up
+<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
 
-The following animation shows the web application's appearance and functionality:
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
 
+
+### Built With
+<!-- * [Next.js](https://nextjs.org/)
+* [React.js](https://reactjs.org/)
+* [Vue.js](https://vuejs.org/)
+* [Angular](https://angular.io/)
+* [Svelte](https://svelte.dev/)
+* [Laravel](https://laravel.com) 
+* [JQuery](https://jquery.com) -->
+<!-- * [NPM - Inquirer](https://www.npmjs.com/package/inquirer) -->
+<!-- * [NPM - Jest](https://www.npmjs.com/package/jest) -->
+* [Node.js](https://nodejs.org/en/)
+* [Express.js](https://expressjs.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [Mongoose](https://www.npmjs.com/package/mongoose)
+* [Moment.js](https://momentjs.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
+### Prerequisites
+Install node.js and mongoDB at the urls in the "Built With" section above. Then, using the command line, run the commands listed in the "Installation" section below.
 
-You’ll use `create-react-app` to build your portfolio, which will include the following:
+### Installation
+<!-- 1. Get a free API Key at [https://example.com](https://example.com) -->
+1. Clone the repo
+    ```sh
+    git clone git@github.com:AlecDziwanowski/HW18-SocialNetworkAPI.git
+    ```
+2. Install NPM packages, including express.js and mongoose
+    ```sh
+    npm install
+    ```
+3. Run server
+    ```sh
+    npm run start
+    ```
+4. Check endpoints on Insomnia (or other application of that type)
+<!-- 4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ``` -->
 
-* A single `Header` component that appears on multiple pages
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-* A single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio
 
-* A single `Project` component that will be used multiple times in the Portfolio section
 
-* A single `Footer` component that appears on multiple pages
+<!-- USAGE EXAMPLES -->
+## Usage
+Full-scale functionality can be viewed at the demo link at the top of this page.
 
-**Note:** Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
+Use a program for interacting with and designing HTTP-based APIs, such as Insomnia, to view endpoints for database access and CRUD operations.
 
-### Projects
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
-For each project that is featured in your portfolio, include the following:
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-* An image of the deployed application (either a short animated GIF or screenshot)
 
-* The title of the project
 
-* A link to the deployed application
+<!-- ROADMAP -->
+## Roadmap
+### Future Modifications
+- Build frontend
+- When a friend is added to one user, add said user as friend as well.
 
-* A link to the corresponding GitHub repository
+<!-- - [ ] Nested Feature -->
 
-### Design
+See the [open issues](https://github.com/AlecDziwanowski/HW18-SocialNetworkAPI/issues) for a full list of proposed features (and known issues).
 
-As with the previous portfolio homework, remember that "good" design is subjective; however, your site should look polished. Here are a few guidelines on what that means:
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-* Use mobile-first design.
 
-* Choose a color palette that distinguishes your site from the default Bootstrap theme and unstyled HTML sites. Refer to resources like [Coolors](https://coolors.co/) or another color scheme generator to help you create something that will stand out.
 
-* Ensure that the font size is large enough to read and that the colors don't cause eye strain.
+<!-- CONTRIBUTING -->
+## Contributing
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-* Consider using animations and React component libraries. Note that this will not affect your grade, but it might impact how potential employers gauge your knowledge.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thank you!
 
-## Grading Requirements
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-> **Note**: If a homework assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This homework is graded based on the following criteria:
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+<!-- LICENSE -->
+## License
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-    * Application must use React to render content.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-    * Application has a single `Header` component that appears on multiple pages, with a `Navigation` component within it that’s used to conditionally render About Me, Portfolio, Contact, and Resume sections.
 
-    * Application has a single `Project` component that’s used multiple times in the Portfolio section.
 
-    * Application has a single `Footer` component that appears on multiple pages.
+<!-- CONTACT -->
+## Contact
+Alec Dziwanowski - [LinkedIn](https://www.linkedin.com/in/alecdziwanowski/) and [GitHub](https://github.com/AlecDziwanowski) <br>
+Project Link: [GitHub Repo](https://github.com/AlecDziwanowski/HW18-SocialNetworkAPI)
 
-    * Application must be deployed to GitHub Pages.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Deployment: 32%
 
-* Application deployed at live URL.
 
-* Application loads with no errors.
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+* My wife, for the support necessary to achieve a new reality.
+* [othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
-* Application GitHub URL submitted.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* User experience is intuitive and easy to navigate.
-
-* User interface style is clean and polished.
-
-* Application uses a color scheme other than the default Bootstrap color palette.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains high-quality README file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
-
-- - -
-© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/AlecDziwanowski/HW18-SocialNetworkAPI.svg?style=for-the-badge
+[contributors-url]: https://github.com/AlecDziwanowski/HW18-SocialNetworkAPI/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AlecDziwanowski/HW18-SocialNetworkAPI.svg?style=for-the-badge
+[forks-url]: https://github.com/AlecDziwanowski/HW18-SocialNetworkAPI/network/members
+[stars-shield]: https://img.shields.io/github/stars/AlecDziwanowski/HW18-SocialNetworkAPI.svg?style=for-the-badge
+[stars-url]: https://github.com/AlecDziwanowski/HW18-SocialNetworkAPI/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AlecDziwanowski/HW18-SocialNetworkAPI.svg?style=for-the-badge
+[issues-url]: https://github.com/AlecDziwanowski/HW18-SocialNetworkAPI/issues
+[license-shield]: https://img.shields.io/github/license/AlecDziwanowski/HW18-SocialNetworkAPI.svg?style=for-the-badge
+[license-url]: https://github.com/AlecDziwanowski/HW18-SocialNetworkAPI/blob/main/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/AlecDziwanowski
+[product-screenshot]: ./Assets/TPG_Screenshot.png
