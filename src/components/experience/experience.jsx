@@ -1,5 +1,5 @@
-import React from 'react'
-import './experience.css'
+import React from 'react';
+import './experience.css';
 
 const Experience = () => {
   return (
@@ -7,4 +7,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Experience;

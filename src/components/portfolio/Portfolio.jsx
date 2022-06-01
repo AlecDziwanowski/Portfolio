@@ -1,5 +1,5 @@
-import React from 'react'
-import './portfolio.css'
+import React from 'react';
+import './portfolio.css';
 
 const Portfolio = () => {
   return (
@@ -7,4 +7,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Portfolio;
