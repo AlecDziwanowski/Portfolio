@@ -65,3 +65,4 @@ You are required to submit BOTH of the following for review:
 
 ## Notes/Questions
 * add in images and resume to assets folder
+* choose background texture image to use (35)
