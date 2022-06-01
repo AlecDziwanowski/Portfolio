@@ -2,8 +2,7 @@ import React from 'react'
 import './testimonials.css'
 
 const Testimonials = () => {
-  return 
-  (
+  return (
     <div>Testimonials</div>
   )
 }
