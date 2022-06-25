@@ -1,8 +1,8 @@
 import React from 'react';
-// Call To Action
-import CTA from './CTA';
+import CTA from './CTA'; // Call To Action
 import './header.css';
-// import headShot from './<photo>'
+import HeaderSocials from './HeaderSocials';
+import ME from '../../assets/me.png';
 
 const Header = () => {
   return (
@@ -10,10 +10,11 @@ const Header = () => {
       <div className="container header_container">
         <h5>Hi, I am</h5>
         <h1>Alec Dziwanowski</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h5 className="text-light">Full-Stack Developer</h5>
         <CTA />
+        <HeaderSocials />
         <div>
-          {/* <img src={headShot} alt="photo of Alec" /> */}
+          <img src={ME} alt="photo of Alec" />
         </div>
         <a href="#contact" className="scroll_down">Scroll Down</a>
       </div>
