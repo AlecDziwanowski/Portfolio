@@ -1,4 +1,4 @@
-.header {
+header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
@@ -60,4 +60,28 @@
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+
+/* ==================== SCROLL DOWN ==================== */
+/* removed 1h3 */
+
+/* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
+@media screen and (max-width: 1024px) {
+    header {
+        /* background-color: red; */
+        height: 68vh;
+    }
+}
+
+/* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header_socials {
+        display: none;
+    }
 }
