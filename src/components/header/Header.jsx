@@ -7,16 +7,16 @@ import ME from '../../assets/me.png';
 const Header = () => {
   return (
     <header>
-      <div className="container header_container">
+      <div className='container header_container'>
         <h5>Hi, I am</h5>
         <h1>Alec Dziwanowski</h1>
-        <h5 className="text-light">Full-Stack Developer</h5>
+        <h5 className='text-light'>Full-Stack Developer</h5>
         <CTA />
         <HeaderSocials />
         <div>
-          <img src={ME} alt="Alec" className="me"/>
+          <img src={ME} alt='Alec' className='me'/>
         </div>
-        {/* <a href="#contact" className="scroll_down">Scroll Down</a> */}
+        {/* <a href='#contact' className='scroll_down'>Scroll Down</a> */}
       </div>
     </header>
   )
