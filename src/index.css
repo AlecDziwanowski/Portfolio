@@ -127,6 +127,18 @@ img {
     color: var(--color-light);
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-col {
+
+    flex-direction: column;
+}
+
+
+
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
 @media screen and (max-width: 1024px) {
     .container {

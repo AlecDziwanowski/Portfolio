@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import { MdOutlineComputer } from 'react-icons/md';
-import { AiOutlineProject } from 'react-icons/ai';
+import { AiOutlineProject, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPenTool } from 'react-icons/fi';
 
 const About = () => {
@@ -25,22 +25,28 @@ const About = () => {
             <article className='about_card'>
               <FiPenTool className='about_icon' />
               <h5>Skills</h5>
-              <div>
-                <small>JavaScript</small>
-                <small>Node.js</small>
-                <small>React.js</small>
-                <small>Express.js</small>
-                <small>MongoDB</small>
-                <small>MySQL2</small>
-                <small>Handlebars</small>
-                <small>GIT / Version Control</small>
-                <small>Agile Development</small>
-                <small>HTML5 / CSS3</small>
-                <small>Agile Development</small>
-                <small>Bootstrap / Tailwind</small>
-                <small>C#</small>
-                <small>MatLab</small>
-                <small>Microsoft Office</small>
+              <div className='flex'>
+                <div className='flex flex-col'>
+                  <small><AiOutlineCheckCircle /> JavaScript</small>
+                  <small><AiOutlineCheckCircle /> Node.js</small>
+                  <small><AiOutlineCheckCircle /> React.js</small>
+                  <small><AiOutlineCheckCircle /> Express.js</small>
+                  <small><AiOutlineCheckCircle /> MongoDB</small>
+                  <small><AiOutlineCheckCircle /> MERN Stack</small>
+                  <small><AiOutlineCheckCircle /> MySQL2</small>
+                  <small><AiOutlineCheckCircle /> GraphQL</small>
+                </div>
+                <div className='flex flex-col'>
+                  <small><AiOutlineCheckCircle /> Handlebars</small>
+                  <small><AiOutlineCheckCircle /> GIT / Version Control</small>
+                  <small><AiOutlineCheckCircle /> Agile Development</small>
+                  <small><AiOutlineCheckCircle /> HTML5 / CSS3</small>
+                  <small><AiOutlineCheckCircle /> </small>
+                  <small><AiOutlineCheckCircle /> Bootstrap / Tailwind</small>
+                  <small><AiOutlineCheckCircle /> C#</small>
+                  <small><AiOutlineCheckCircle /> MatLab</small>
+                  <small><AiOutlineCheckCircle /> Microsoft Office</small>
+                </div>
               </div>
             </article>
           </div>
