@@ -27,11 +27,11 @@
 .about_icon {
     color: var(--color-primary);
     font-size: 1.4rem;
-    margin-bottom: 1rem;
 }
 
 .about_card h5 {
     font-size: 0.95rem;
+    margin-bottom: 1rem;
 }
 
 .about_card small {
