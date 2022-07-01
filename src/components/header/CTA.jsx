@@ -1,5 +1,5 @@
 import React from 'react';
-import RESUME from '../../assets/resume.pdf';
+import RESUME from '../../assets/AlecDziwanowski_Resume_2022.pdf';
 
 const CTA = () => {
   return (
