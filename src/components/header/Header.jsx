@@ -2,7 +2,6 @@ import React from 'react';
 import CTA from './CTA'; // Call To Action
 import './header.css';
 import HeaderSocials from './HeaderSocials';
-// import ME from '../../assets/me.png';
 
 const Header = () => {
   return (
@@ -13,10 +12,6 @@ const Header = () => {
         <h5 className='text-light'>Full-Stack Developer</h5>
         <HeaderSocials />
         <CTA />
-        {/* <div>
-          <img src={ME} alt='Alec' className='me'/>
-        </div> */}
-        {/* <a href='#contact' className='scroll_down'>Scroll Down</a> */}
       </div>
     </header>
   )
