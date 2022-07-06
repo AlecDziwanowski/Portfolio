@@ -1,6 +1,11 @@
 .about_container {
-    display: grid;
+    display: flex;
     gap: 15%;
+    justify-content: center;
+}
+
+.about_content {
+    width: 66%;
 }
 
 .about_cards {
