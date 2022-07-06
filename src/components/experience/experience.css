@@ -1,12 +1,30 @@
 .experience_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
     gap: 1.2rem;
 }
 
 .experience_container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 2rem 4rem;
     border-radius: 2rem;
     border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.experience_containter > div h3 {
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experience_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience_details {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
