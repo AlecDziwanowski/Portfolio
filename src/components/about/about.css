@@ -9,8 +9,7 @@
 }
 
 .about_cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     gap: 1.5rem;
 }
 
@@ -21,6 +20,7 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    width: 50%;
 }
 
 .about_card:hover {
