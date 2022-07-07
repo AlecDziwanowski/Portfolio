@@ -5,7 +5,7 @@
 }
 
 .about_content {
-    width: 66%;
+    width: 75%;
 }
 
 .about_cards {
@@ -46,25 +46,34 @@
 
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
 @media screen and (max-width: 1024px) {
-    .about_container {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-
     .about_content p {
         margin: 1rem 0 1.5rem;
+    }
+
+    .about_cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about_card {
+        width: 100%;
     }
 }
 
 /* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
 @media screen and (max-width: 600px) {
+    .about_content {
+        text-align: center;
+    }
+
     .about_cards {
-        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 1rem;
     }
 
-    .about_content {
-        text-align: center;
+    .about_card {
+        width: 100%;
     }
 
     .about_content p {
