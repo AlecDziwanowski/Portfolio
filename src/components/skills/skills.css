@@ -1,28 +1,27 @@
-.experience_container {
+.skills_container {
     display: flex;
     justify-content: center;
     gap: 1.2rem;
 }
 
-.experience_container > div {
+.skills_container > div {
     background: var(--color-bg-variant);
     padding: 2rem 4rem;
     border-radius: 2rem;
     border: 1px solid transparent;
 }
 
-.experience_container > div h3 {
-    text-align: center;
+.skills_container > div h3 {
     margin-bottom: 1rem;
     color: var(--color-primary);
 }
 
-.experience_details {
+.skills_details {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     margin-bottom: 0.5rem;
 }
 
-.experience_details h4 {
+.skills_details h4 {
     margin-left: 1rem;
 }
