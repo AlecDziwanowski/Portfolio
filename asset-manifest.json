@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.567bd332.css",
+    "main.js": "/Portfolio/static/js/main.17a29cb5.js",
+    "static/media/AlecDziwanowski_Resume_2022.pdf": "/Portfolio/static/media/AlecDziwanowski_Resume_2022.c81845a48a3e5ee83485.pdf",
+    "static/media/zwartevilt.webp": "/Portfolio/static/media/zwartevilt.8f9f366475284ad0f76c.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.567bd332.css.map": "/Portfolio/static/css/main.567bd332.css.map",
+    "main.17a29cb5.js.map": "/Portfolio/static/js/main.17a29cb5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.567bd332.css",
+    "static/js/main.17a29cb5.js"
+  ]
+}
