@@ -41,8 +41,6 @@
     color: var(--color-light);
 }
 
-
-
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
 @media screen and (max-width: 1024px) {
     .about_content p {
