@@ -14,7 +14,7 @@ const About = () => {
           <div className='about_cards'>
             <article className='about_card'>
               <MdOutlineComputer className='about_icon' />
-              <h5>Web Devlopment</h5>
+              <h5>Web Development</h5>
               <small>Co-developed and actively maintaining <a href='https://syncmylinks.com' target='_blank'>SyncMyLinks.com</a>.</small>
             </article>
             <article className='about_card'>
