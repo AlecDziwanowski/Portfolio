@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.67780237.css",
-    "main.js": "/Portfolio/static/js/main.e8c5321a.js",
+    "main.css": "/Portfolio/static/css/main.67feca9f.css",
+    "main.js": "/Portfolio/static/js/main.467f76bf.js",
     "static/media/bookSearchEngine_SS.png": "/Portfolio/static/media/bookSearchEngine_SS.0f65b2f0921a77fc6ed1.png",
     "static/media/SocialNetworkAPI_SS.png": "/Portfolio/static/media/SocialNetworkAPI_SS.6793bfd3a0087e1ae55f.png",
     "static/media/ECommerceBackend_SS.png": "/Portfolio/static/media/ECommerceBackend_SS.02bdabfccd539c8dda4b.png",
-    "static/media/AlecDziwanowski_Resume_2022.pdf": "/Portfolio/static/media/AlecDziwanowski_Resume_2022.4b0f0aeb2d7fbbd92b54.pdf",
+    "static/media/AlecDziwanowski_Resume_2022.pdf": "/Portfolio/static/media/AlecDziwanowski_Resume_2022.4f5f353bc6b69c23b804.pdf",
     "static/media/zwartevilt.webp": "/Portfolio/static/media/zwartevilt.8f9f366475284ad0f76c.webp",
     "index.html": "/Portfolio/index.html",
-    "main.67780237.css.map": "/Portfolio/static/css/main.67780237.css.map",
-    "main.e8c5321a.js.map": "/Portfolio/static/js/main.e8c5321a.js.map"
+    "main.67feca9f.css.map": "/Portfolio/static/css/main.67feca9f.css.map",
+    "main.467f76bf.js.map": "/Portfolio/static/js/main.467f76bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.67780237.css",
-    "static/js/main.e8c5321a.js"
+    "static/css/main.67feca9f.css",
+    "static/js/main.467f76bf.js"
   ]
 }
