@@ -14,13 +14,13 @@ const About = () => {
           <div className='about_cards'>
             <article className='about_card'>
               <MdOutlineComputer className='about_icon' />
-              <h5>Web Development</h5>
-              <small>Co-developed and actively maintaining <a href='https://syncmylinks.com' target='_blank'>SyncMyLinks.com</a>.</small>
+              <h3>Web Development</h3>
+              <h4>Co-developed and actively maintaining <a href='https://syncmylinks.com' target='_blank' rel='noreferrer'>SyncMyLinks.com</a>.</h4>
             </article>
             <article className='about_card'>
               <AiOutlineProject className='about_icon' />
-              <h5>Project Management</h5>
-              <small>Four Years of experience managing over 100 environmental consulting projects totaling approximately $750,000.</small>
+              <h3>Project Management</h3>
+              <h4>Four Years of experience managing over 100 environmental consulting projects totaling approximately $750,000.</h4>
             </article>
           </div>
           <p>
@@ -29,7 +29,6 @@ const About = () => {
             and my hobbies include: spending quality time with my wife and daughter, playing ice hockey, snowboarding, golfing, PC gaming,
             and following the NHL, namely, the Detroit Red Wings.
           </p>
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
