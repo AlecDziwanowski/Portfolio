@@ -4,7 +4,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <div align="center">
@@ -24,7 +23,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-My portfolio, which I built using React.
+My portfolio
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
